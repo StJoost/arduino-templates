@@ -4,7 +4,7 @@
 //Digital pins send note on/off when connecting/disconnecting to ground
 //Analog pins send controller data, and can be configured with min. and max, or boolean threshhold value
 //Midi is sent on signal change: connect unused analog inputs to ground
-
+// to do: specify midi channel (possibility for multiple controllers on one sensor), low-pass, thresh is obsolete
 #include "MIDIUSB.h"
 
 //analog Sensor Configuration
